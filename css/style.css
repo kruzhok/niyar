@@ -1,0 +1,292 @@
+@import url(reset.css);
+
+div, header, footer {
+	box-sizing: border-box;
+}
+
+footer, header {
+	background-color: purple;
+	color: white;
+}
+
+.column, .buttonContainer{
+	border: 1px solid purple;
+}
+
+.buttonContainer {
+	background-color: purple;
+	color: white;
+	text-align: center;
+	line-height: 30px;
+}
+
+body {
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h1,h2,h3 {
+	font-family: 'Merriweather', serif;
+	line-height: 50px;
+}
+
+.header {
+	min-height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo-block {
+
+	min-width: 200px;
+	min-height: 50px;
+}
+
+.logo-block img {
+	width: 200px;
+}
+.bigText {
+	min-height: 50px;
+	min-width: 700px;
+}
+
+.menu {
+	min-height: 50px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.menu a {
+	min-width: 100px;
+}
+
+.bigPicture {
+	min-height: 500px;
+	background-image: url(../img/index-big.jpg);
+	background-size: cover;
+	background-position: center;
+	display: flex;
+}
+
+.bigPicture h2 {
+	color: white;
+	font-size: 60px;
+	margin: auto;
+}
+
+.bigPicture.heroes {
+	background-image: url(../img/heroes-big.jpg);
+	background-size: cover;
+	background-position: center;
+}
+ 
+.imageAndTextBlock {
+	min-height: 300px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.image {
+	min-height: 200px;
+	min-width: 200px;
+}
+
+.text {
+	min-height: 200px;
+	width: 700px;
+}
+
+.threeColumnsBlock {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.column {
+	height: 200px;
+	min-width: 300px;
+	position: relative;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	color: white;
+}
+
+.textcontainer {
+	min-height: 50px;
+}
+
+.buttonContainer {
+	min-height: 30px;
+	width: 100px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.longText {
+	min-height: 300px;
+}
+
+.headingContainer {
+	min-height: 50px;
+}
+
+.longTextContainer {
+	min-height: 200px;
+}
+
+.longTextContainer ol li {
+	list-style-type: circle;
+	margin-left: 50px;
+}
+
+.myFooter {
+	min-height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.socialNet img {
+    width: 50px;
+} 
+
+.copyright {
+	min-width: 200px;
+	min-height: 50px;
+}
+
+.social {
+	min-width: 200px;
+	min-height: 50px;
+	display: flex;
+	justify-content: space-around;
+}
+.socialNet {
+	min-width: 50px;
+	min-height: 50px;
+}
+
+.popup {
+	position: fixed;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	min-width: 500px;
+	min-height: 500px;
+	background-color: white;
+	display: none;
+	border: 1px solid purple;
+}
+
+.close {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	background-image: url(../img/close.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.popup-heading {
+	min-width: 100px;
+	min-height: 50px;
+	margin-top: 100px;
+}
+
+.popup-text {
+	min-height: 200px;
+}
+
+.column.one {
+	background-image: url(../img/heroes/JasonBrody.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.column.two {
+	background-image: url(../img/heroes/vaasmontenegro.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.column.three {
+	background-image: url(../img/heroes/crop.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.column.four {
+	background-image: url(../img/heroes/backhy.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.column.five {
+	background-image: url(../img/heroes/xoyt.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.column.six {
+	background-image: url(../img/heroes/Dr_Earnhardt.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.column.seven {
+	background-image: url(../img/heroes/Riley_Grant.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.column.eight {
+	background-image: url(../img/heroes/gant.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.column.nine {
+	background-image: url(../img/heroes/Daisy.png);
+	background-size: cover;
+	background-position: center;
+}
+.column.ten {
+	background-image: url(../img/heroes/liza-snow-5.png);
+	background-size: cover;
+	background-position: center;
+}
+.column.eleven {
+	background-image: url(../img/heroes/oliver.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.column.twelwe {
+	background-image: url(../img/heroes/Keith-Ramsay.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.column.thirteen {
+	background-image: url(../img/heroes/dennis-rogers.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.column.fourteen {
+	background-image: url(../img/heroes/Willis_Huntley.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.column.fifteen {
+	background-image: url(../img/heroes/sambekker.jpeg);
+	background-size: cover;
+	background-position: center;
+}
+
+.column.sixteen {
+	background-image: url(../img/heroes/gerk.jpg);
+	background-size: cover;
+	background-position: center;
+}
